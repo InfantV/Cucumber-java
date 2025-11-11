@@ -23,6 +23,10 @@ public class Commonactions {
 
     }
 	
+        public void saravanan() {
+        	System.out.println(" hai this is saravanan ");
+            
+        }
 public void insertData(WebElement ele, String prod) {
 		
 		ele.sendKeys(prod,Keys.ENTER);
