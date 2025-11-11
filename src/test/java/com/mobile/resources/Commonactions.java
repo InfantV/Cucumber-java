@@ -27,6 +27,12 @@ public class Commonactions {
         	System.out.println(" hai this is saravanan ");
             
         }
+        
+        public void divya () {
+        	System.out.println("Hello I'm Divya");
+        }
+        
+        
 public void insertData(WebElement ele, String prod) {
 		
 		ele.sendKeys(prod,Keys.ENTER);
