@@ -23,6 +23,10 @@ public class Commonactions {
 
     }
 	
+	  public void sangeetha() {
+		System.out.println("HI I AM Sangeetha");
+	}
+	
         public void saravanan() {
         	System.out.println(" hai this is saravanan ");
             
@@ -32,6 +36,7 @@ public class Commonactions {
         	System.out.println("Hello I'm Divya");
         }
         
+       
         
 public void insertData(WebElement ele, String prod) {
 		
