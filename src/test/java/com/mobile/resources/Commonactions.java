@@ -23,8 +23,8 @@ public class Commonactions {
 
     }
 	
-        public void saravanan() {
-        	System.out.println(" hai this is saravanan ");
+        public void kanchana() {
+        	System.out.println(" my name is kanchana");
             
         }
         
