@@ -26,5 +26,11 @@ public class MobilePurchasePage extends Commonactions {
 	public WebElement getProd1() {
 		return prod1;
 	}
+	public void searchProduct(String productName) {
+        searchBox.clear();
+        searchBox.sendKeys(productName);
+        searchBox.submit();  // or you can click the search button if needed
+        System.out.println("Searched for: " + productName);
 
+}
 }
