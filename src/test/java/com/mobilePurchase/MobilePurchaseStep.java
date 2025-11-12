@@ -97,6 +97,10 @@ public class MobilePurchaseStep extends Commonactions {
 		driver.findElement(By.xpath("//div[contains(text(),'"+mobiles.get(i)+"')][1]")).click();
 		}
 	  }	
+	public void suvitha() {
+		System.out.println("child two");
+	}
+
 	
 //	@When("User search the mobile by using one dimensional map")
 //	public void user_search_the_mobile_by_using_one_dimensional_map(DataTable dataTable) throws InterruptedException {
