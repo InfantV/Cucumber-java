@@ -3,7 +3,6 @@
   <groupId>Cucumber-java</groupId>
   <artifactId>Cucumber-java</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
   <dependencies>
 	
 	<dependency>
@@ -38,9 +37,16 @@
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
-    <version>4.13.2</version>
+    <version>4.13.2</version>		
+  	</dependency>
+  	<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.5.1</version>
 </dependency>
-
-
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.23.1</version> </dependency>
   </dependencies>
 </project>
