@@ -1,0 +1,5 @@
+com\mobilePurchase\MobilePurchaseStep.class
+com\mobile\resources\Commonactions.class
+com\mobilePurchase\TestRunner.class
+com\mobile\objectRepository\MobilePurchasePage.class
+com\mobilePurchase\Hooks.class
