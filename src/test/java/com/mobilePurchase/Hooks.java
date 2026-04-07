@@ -25,7 +25,14 @@ public class Hooks extends Commonactions{
 	@After
 	public void afterMethod() {
 		System.out.println("After");
+		
+		
+
 		//Browser Quit
+	}
+	private void Methaod1() {
+		// TODO Auto-generated method stub
+
 	}
 }
 
