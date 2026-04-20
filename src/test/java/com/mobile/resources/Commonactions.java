@@ -27,12 +27,15 @@ public class Commonactions {
         	System.out.println(" my name is kanchana");
             
         }
-        
+        public void printName(){
+            System.out.println("hello from ananth");
+        }
+
         public void divya () {
         	System.out.println("Hello I'm Divya");
         }
-        
-        
+
+
 public void insertData(WebElement ele, String prod) {
 		
 		ele.sendKeys(prod,Keys.ENTER);
