@@ -25,6 +25,9 @@ public class MobilePurchasePage extends Commonactions {
 
 	public WebElement getProd1() {
 		return prod1;
+	
+
+	}
 	}
 
 }

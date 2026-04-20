@@ -31,6 +31,9 @@ public class Commonactions {
         public void divya () {
         	System.out.println("Hello I'm Divya");
         }
+     
+        public void rama() {
+        	System.out.println("i am rama");        }
         
         
 public void insertData(WebElement ele, String prod) {
