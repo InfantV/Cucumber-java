@@ -1,13 +1,13 @@
 @phone
 Feature: Login functionality
+Background:
+    Given user launches browser
 
   Scenario: phone purchase
-    Given user launches browser
     When user searches mobile
     Then user selects product
     
   #Scenario Outline: All Mobiles
-   # Given user launches browser
    # When user searches mobile "<Phones>"
    # Then user selects product
   #Examples:
@@ -17,7 +17,6 @@ Feature: Login functionality
 #|Redmi|
 
   Scenario: Mobile purchase using list
-   Given user launches browser
    When user searches mobile using one dim list
    |Samsung|
    |Redmi|
