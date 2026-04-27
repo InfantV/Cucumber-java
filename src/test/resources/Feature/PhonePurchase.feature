@@ -1,8 +1,7 @@
-@phone
 Feature: Login functionality
 Background:
     Given user launches browser
-
+    @phone
   Scenario: phone purchase
     When user searches mobile
     Then user selects product
@@ -16,12 +15,13 @@ Background:
 #|Samsung|
 #|Redmi|
 
-  Scenario: Mobile purchase using list
-   When user searches mobile using one dim list
-   |Samsung|
-   |Redmi|
-   |Realme|
-   Then user selects product
+  #Scenario: Mobile purchase using list
+   #When user searches mobile using one dim list
+  # |Samsung|
+  # |Redmi|
+   #|Realme|
+   #Then user selects product
+   
    
  #Scenario: Mobile purchase using map
 #    When user searches mobile using one dim map
@@ -30,5 +30,7 @@ Background:
     #|Phone3|Samsung|
     #Then user selects product 
     
-    
+    @screenshot
+    Scenario: Take Screenshot
+    When user take screenshot
     

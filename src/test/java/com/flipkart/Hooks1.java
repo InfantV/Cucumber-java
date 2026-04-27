@@ -2,18 +2,23 @@ package com.flipkart;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import com.mobile.resources.Commonactions;
 
 import io.cucumber.java.Before;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import jdk.internal.classfile.impl.Options;
 
-public class Hooks1 {
+public class Hooks1 extends Commonactions{
 	public static WebDriver driver;
 
     @Before
     public void setup() {
     	WebDriverManager.chromedriver().setup();
-    	driver = new ChromeDriver();
-        driver.manage().window().maximize();
+    	ChromeOptions option=new ChromeOptions();
+    	option.addArguments("start-maximized");
+    	driver = new ChromeDriver(option);
     }
 
 //    @After

@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
     glue = {"com.flipkart"},
     plugin = {"pretty", "html:target/report.html"},
     monochrome = true,
-    tags = "@phone and @tv"
+    tags = "@screenshot or @phone"
     )
 
 public class TestRunner1 {

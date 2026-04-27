@@ -14,7 +14,7 @@ Background:
 #|LG|
 #|Samsung|
 #|Redmi|
-@phone @tv
+@phone 
   Scenario: Tv purchase using list
    When user searches tv using one dim list
    |LG|
