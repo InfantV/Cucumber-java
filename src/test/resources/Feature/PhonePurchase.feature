@@ -1,7 +1,6 @@
 Feature: Login functionality
 Background:
     Given user launches browser
-    @phone
   Scenario: phone purchase
     When user searches mobile
     Then user selects product
@@ -30,7 +29,13 @@ Background:
     #|Phone3|Samsung|
     #Then user selects product 
     
-    @screenshot
+   # @screenshot
     Scenario: Take Screenshot
     When user take screenshot
+@phone
+      Scenario: phone purchase
+    When user searches mobile
+    And user selects the product
+    Then user handling the window
+    And user clicks the review 
     
